@@ -6,5 +6,7 @@
 import Foundation
 
 func chapterOne() {
-    // Your portion of the story goes here
+    print("In the quiet town of Byteville, socially awkward coder Lily discovers a hidden source code that grants her extraordinary powers. Empowered by her newfound abilities, she transforms into a fearless superhero, Code Slinger determined to use her skills for good.")
 }
+
+      
