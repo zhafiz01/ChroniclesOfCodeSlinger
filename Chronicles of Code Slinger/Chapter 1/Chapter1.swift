@@ -6,11 +6,11 @@
 import Foundation
 
 let ChapterTitle: String = "Chapter 1: The Quiet Coder"
-let Town = "Byteville"
+//let Town = "Byteville"
 let NewAI = "Aetheris"
 let OldAI = "Seraph"
 let Corp = "Innovatech Corporation"
-let mainCharacter = "Lily"
+//let mainCharacter = "Lily"
 let evilVillian = "Dr. Evil"
 
 var isLilyCurious: Bool = false
