@@ -21,7 +21,7 @@ var roomResonatesWithHum: Bool = true
 
 ///Struct using character profile
 
-struct CharacterProfile {
+struct CharacterProfile1 {
     var name: String
     var age: Int
     var description: String
@@ -29,10 +29,10 @@ struct CharacterProfile {
     var nickname: String? //modified struct to add optional string property for character nickname
 }
     
-    let lily = CharacterProfile(name: "Lily", age: 20, description: "A woman in her early twenties with glasses and an introverted demeanor.", role: "Software Developer", nickname: nil)
-    let drEvil = CharacterProfile(name: "Dr. Evil", age: 50, description: "A man in his 50s both imposing and cunning.", role: "CEO of Innovatech Corporation.", nickname: "Evil Genius")
-    let mrSmith = CharacterProfile(name: "Mr. Smith", age: 40, description: "Loyal bu uneasy assistant of Dr. Evil.", role: "Evil Assitant")
-    let seraph = CharacterProfile(name: "Seraph", age: -1, description: "Old AI used by Innovatech Corporation that is going to be replaced.", role: "AI Entity")
+    let lily1 = CharacterProfile1(name: "Lily", age: 20, description: "A woman in her early twenties with glasses and an introverted demeanor.", role: "Software Developer", nickname: nil)
+    let drEvil = CharacterProfile1(name: "Dr. Evil", age: 50, description: "A man in his 50s both imposing and cunning.", role: "CEO of Innovatech Corporation.", nickname: "Evil Genius")
+    let mrSmith = CharacterProfile1(name: "Mr. Smith", age: 40, description: "Loyal bu uneasy assistant of Dr. Evil.", role: "Evil Assitant")
+    let seraph1 = CharacterProfile1(name: "Seraph", age: -1, description: "Old AI used by Innovatech Corporation that is going to be replaced.", role: "AI Entity")
 
 
 
