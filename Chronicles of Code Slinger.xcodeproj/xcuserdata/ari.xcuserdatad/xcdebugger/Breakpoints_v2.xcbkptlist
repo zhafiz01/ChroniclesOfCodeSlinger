@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C917C155-F347-4CDE-ACE6-35B909BBB44F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F0B3A6C-BD45-4C25-BEBD-554427958BC7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chronicles of Code Slinger/Chapter 4/Chapter4.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F3954FF-7DDB-425C-A2F5-0A559C5D47CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chronicles of Code Slinger/Chapter 4/Chapter4.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "1F3954FF-7DDB-425C-A2F5-0A559C5D47CD - 5e4516c7d9e3b930"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for ChapterTitle"
+                  moduleName = "Chronicles of Code Slinger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ari/Documents/ChroniclesOfCodeSlinger/Chronicles%20of%20Code%20Slinger/Chapter%204/Chapter4.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "1F3954FF-7DDB-425C-A2F5-0A559C5D47CD - 1ae182b635bbd5c1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Chronicles_of_Code_Slinger.ChapterTitle.unsafeMutableAddressor : Swift.String"
+                  moduleName = "Chronicles of Code Slinger"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ari/Documents/ChroniclesOfCodeSlinger/Chronicles%20of%20Code%20Slinger/Chapter%204/Chapter4.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A8F62A8-B2DB-49CC-8EE0-10C7A39DE8BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Chronicles of Code Slinger/Chapter 4/Chapter4.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
