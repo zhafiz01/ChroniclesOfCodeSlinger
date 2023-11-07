@@ -14,13 +14,13 @@ var phrases = ["Soon the world will tremble before your might Aetheris!" ,
 let randomIndex = Int.random(in: 0..<phrases.count)
 
 // Access the random phrase
-let randomPhrase = phrases[randomIndex]
+let randomPhrase4 = phrases[randomIndex]
 
 //let chapterTitle: String = "Chapter 2: Secrets Unraveled"
 //let mainCharacter = "Lily"
-//let oldAI = "Seraph"
+let oldAI = "Seraph"
 //let newAI = "Aetheris"
-//let Town = "Byteville"
+let Town = "Byteville"
 //let Hero = "Code Slinger"
 
 

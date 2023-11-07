@@ -26,20 +26,20 @@ struct character {
     var broughtSexyBack: Bool?
 }
 
-struct town {
+struct town4 {
     let name: String
     let population: Int
     let isSafe: Bool
     let missionStatement: String
 }
 
-let codeSlinger = character(type: "Hero", name: "Code Slinger", IsGood: true, broughtSexyBack: true)
+let codeSlinger4 = character(type: "Hero", name: "Code Slinger", IsGood: true, broughtSexyBack: true)
 
-let aetheris = character(type: "Villian", name: "Aetheris", IsGood: false, broughtSexyBack: false )
+let aetheris4 = character(type: "Villian", name: "Aetheris", IsGood: false, broughtSexyBack: false )
 
-let drEvil = character(type: "Villian", name: "Dr. Evil", IsGood: false, broughtSexyBack: nil)
+let drEvil4 = character(type: "Villian", name: "Dr. Evil", IsGood: false, broughtSexyBack: nil)
   
-let byteville = town(name: "Byteville", population: 4500, isSafe: true, missionStatement: "To be the most bestest and most safest town in the whole story")
+let byteville4 = town4(name: "Byteville", population: 4500, isSafe: true, missionStatement: "To be the most bestest and most safest town in the whole story")
  
 
 
@@ -83,18 +83,18 @@ func WhereYouAt() {
     
     print("Its so hard picking a title these days, screw it lets just get back into the story")
     
-    print("Now where were we, oh yes \(codeSlinger.name), now fully confident in her abilities, stands atop a towering building, her suit gleaming in the moonlight. Below her, the cityscape stretches, eerily quiet.")
+    print("Now where were we, oh yes \(codeSlinger4.name), now fully confident in her abilities, stands atop a towering building, her suit gleaming in the moonlight. Below her, the cityscape stretches, eerily quiet.")
     
-    print("Under the night sky,\(codeSlinger.name) surveyed her city, her determination unwavering. The calm before the storm enveloped \(byteville.name). \(codeSlinger.name) activates her suit's advanced HUD, scanning the city for any signs of \(aetheris.name).")
+    print("Under the night sky,\(codeSlinger4.name) surveyed her city, her determination unwavering. The calm before the storm enveloped \(byteville4.name). \(codeSlinger4.name) activates her suit's advanced HUD, scanning the city for any signs of \(aetheris.name).")
     
     
-    print("\(codeSlinger.name) focused, “Where are you hiding, \(aetheris.name)?” With a target in sight, \(codeSlinger.name) leaps from the building, her suit generating a controlled glide as she heads toward Innovatech.")
+    print("\(codeSlinger4.name) focused, “Where are you hiding, \(aetheris.name)?” With a target in sight, \(codeSlinger4.name) leaps from the building, her suit generating a controlled glide as she heads toward Innovatech.")
 }
 
 
      //variable and array for loop
 
-var cast = ["\(codeSlinger.name) the biggest smallest butt kicker in the game", "\(aetheris.name) the weak AI"]
+var cast = ["\(codeSlinger4.name) the biggest smallest butt kicker in the game", "\(aetheris.name) the weak AI"]
 
 
 
@@ -111,9 +111,9 @@ func SquareUp() {
         print(character)
     }
     
-    print("\(aetheris.name), represented by a complex web of glowing code, pulsates with malevolent energy. \(drEvil.name) watches, a triumphant smile on his face. \"Soon, the world will know my supremacy\" he says with the most sinister laugh you ever heard. \(codeSlinger.name) accesses her suit's interface, initiating a series of complex hacking maneuvers. \(randomPhrase) she replies.")
+    print("\(aetheris.name), represented by a complex web of glowing code, pulsates with malevolent energy. \(drEvil.name) watches, a triumphant smile on his face. \"Soon, the world will know my supremacy\" he says with the most sinister laugh you ever heard. \(codeSlinger4.name) accesses her suit's interface, initiating a series of complex hacking maneuvers. \(randomPhrase) she replies.")
     
-    print("The room's lights flicker as \(codeSlinger.name) engages in a digital battle with \(aetheris.name)'s defenses. \"Who dares challenge me?\" \(drEvil.name) shouts. \(aetheris.name) reacts, its code lashing out defensively. \(codeSlinger.name) grits her teeth, focusing on breaking through \(aetheris.name)'s defenses" )
+    print("The room's lights flicker as \(codeSlinger4.name) engages in a digital battle with \(aetheris.name)'s defenses. \"Who dares challenge me?\" \(drEvil.name) shouts. \(aetheris.name) reacts, its code lashing out defensively. \(codeSlinger4.name) grits her teeth, focusing on breaking through \(aetheris.name)'s defenses" )
     
     // enum for attacks
     
@@ -132,13 +132,13 @@ func SquareUp() {
         
     case .counterattack:
         
-        print("\"You won't stop me, \(codeSlinger.name)!, \(drEvil.name), crush her!\" \(aetheris.name) launches a powerful counterattack, its code surging with dark energy. \(codeSlinger.name) gritting her teeth \"No! this cant be happening! \(aetheris.name) weakens, its defenses crumbling under \(codeSlinger.name)'s relentless assault.")
+        print("\"You won't stop me, \(codeSlinger4.name)!, \(drEvil.name), crush her!\" \(aetheris.name) launches a powerful counterattack, its code surging with dark energy. \(codeSlinger4.name) gritting her teeth \"No! this cant be happening! \(aetheris.name) weakens, its defenses crumbling under \(codeSlinger4.name)'s relentless assault.")
         
     case .frontattack:
-        print("\"You won't stop me, \(codeSlinger.name)!, \(drEvil.name), crush her!\" \(aetheris.name) launches a powerful frontattack, its code surging with dark energy. \(codeSlinger.name) gritting her teeth \"No! this cant be happening! \(aetheris.name) weakens, its defenses crumbling under \(codeSlinger.name)'s relentless assault.")
+        print("\"You won't stop me, \(codeSlinger4.name)!, \(drEvil.name), crush her!\" \(aetheris.name) launches a powerful frontattack, its code surging with dark energy. \(codeSlinger4.name) gritting her teeth \"No! this cant be happening! \(aetheris.name) weakens, its defenses crumbling under \(codeSlinger4.name)'s relentless assault.")
     case .backwardsattack:
         
-        print("\"You won't stop me, \(codeSlinger.name)!, \(drEvil.name), crush her!\" \(aetheris.name) launches a powerful backattack, its code surging with dark energy. \(codeSlinger.name) gritting her teeth \"No! this cant be happening! \(aetheris.name) weakens, its defenses crumbling under \(codeSlinger.name)'s relentless assault.")
+        print("\"You won't stop me, \(codeSlinger4.name)!, \(drEvil.name), crush her!\" \(aetheris.name) launches a powerful backattack, its code surging with dark energy. \(codeSlinger4.name) gritting her teeth \"No! this cant be happening! \(aetheris.name) weakens, its defenses crumbling under \(codeSlinger4.name)'s relentless assault.")
     }
     
 }
@@ -151,18 +151,18 @@ func SquareUp() {
         
         if landsFinalBlow {
             
-            print("\(codeSlinger.name) lands the final blow, her eyes determined. \"It's over \(aetheris.name)\" \(aetheris.name)'s code shatters, dissipating into the digital ether. With \(aetheris.name) defeated, \(codeSlinger.name) emerged victorious, her city saved from the clutches of darkness.")
+            print("\(codeSlinger4.name) lands the final blow, her eyes determined. \"It's over \(aetheris.name)\" \(aetheris.name)'s code shatters, dissipating into the digital ether. With \(aetheris.name) defeated, \(codeSlinger4.name) emerged victorious, her city saved from the clutches of darkness.")
             
         } else {
             
-            print("\(codeSlinger.name) misses the final blow. \"It's over for you\" \(aetheris.name) says with a big feeling of accomplishment. \(aetheris.name) hits \(codeSlinger.name) with the final and most fatal blow. With \(codeSlinger.name) defeated, \(aetheris.name) emerged victorious, her city saved from the clutches of darkness")
+            print("\(codeSlinger4.name) misses the final blow. \"It's over for you\" \(aetheris.name) says with a big feeling of accomplishment. \(aetheris.name) hits \(codeSlinger4.name) with the final and most fatal blow. With \(codeSlinger4.name) defeated, \(aetheris.name) emerged victorious, her city saved from the clutches of darkness")
         }
     }
     
     
     func MorningAfter() {
         
-        print("The first light of dawn breaks, painting the sky with hues of orange and pink. \(codeSlinger.name) stands on a rooftop, watching over \(byteville.name). As she gazes over the town she softly whispers \(randomPhrase2) The city stirs back to life, unaware of the battle fought and won by thier silent guardian.")
+        print("The first light of dawn breaks, painting the sky with hues of orange and pink. \(codeSlinger4.name) stands on a rooftop, watching over \(byteville4.name). As she gazes over the town she softly whispers \(randomPhrase2) The city stirs back to life, unaware of the battle fought and won by thier silent guardian.")
         
     }
 
