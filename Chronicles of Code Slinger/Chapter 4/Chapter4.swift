@@ -16,11 +16,14 @@ var landsFinalBlow = true
 
 //character and town structs
 
+//optional bool
+
 struct character {
     
     var type : String
     let name: String
     let IsGood: Bool
+    var broughtSexyBack: Bool?
 }
 
 struct town {
@@ -29,12 +32,12 @@ struct town {
     let isSafe: Bool
     let missionStatement: String
 }
-// character and town
-let codeSlinger = character(type: "Hero", name: "Code Slinger", IsGood: true)
 
-let aetheris = character(type: "Villian", name: "Aetheris", IsGood: false)
+let codeSlinger = character(type: "Hero", name: "Code Slinger", IsGood: true, broughtSexyBack: true)
 
-let drEvil = character(type: "Villian", name: "Dr. Evil", IsGood: false)
+let aetheris = character(type: "Villian", name: "Aetheris", IsGood: false, broughtSexyBack: false )
+
+let drEvil = character(type: "Villian", name: "Dr. Evil", IsGood: false, broughtSexyBack: nil)
   
 let byteville = town(name: "Byteville", population: 4500, isSafe: true, missionStatement: "To be the most bestest and most safest town in the whole story")
  
@@ -49,7 +52,7 @@ let chapterTitles = ["Chapter 4: The Battle Begins", "Chapter 4: Oh Yea, Time to
 
 let randomPhrases: [String] = ["\"Time to level the playing field\"","\"I guess this will be my workout for the day\"", "\"Man you really need a new hobby\"", "\"Awww you need a hug?\"","\"Would you just cmon, I still have a bedtime y'know\""]
 
-let randomPhrase22: [String] = ["\"I'll always protect you.\"","\"Its my money and I want it now\"", "\"Call JG wentwoth 877 cash now\"", "\"Krusty krayaya ayayab pizza is the pizza for you and meeeeeeeeeeeeeee\""]
+let randomPhrase22: [String] = ["\"I'll always protect you.\"","\"Its my money and I want it now\"", "\"Call JG wentworth 877 cash now\"", "\"Krusty krayaya ayayab pizza is the pizza for you and meeeeeeeeeeeeeee\""]
 
 
 func chapterFour() {
@@ -93,6 +96,11 @@ func WhereYouAt() {
 
 var cast = ["\(codeSlinger.name) the biggest smallest butt kicker in the game", "\(aetheris.name) the weak AI"]
 
+
+
+
+
+
 func SquareUp() {
     
     print("The intense stare down between")
@@ -102,33 +110,59 @@ func SquareUp() {
     for character in cast {
         print(character)
     }
-        
+    
     print("\(aetheris.name), represented by a complex web of glowing code, pulsates with malevolent energy. \(drEvil.name) watches, a triumphant smile on his face. \"Soon, the world will know my supremacy\" he says with the most sinister laugh you ever heard. \(codeSlinger.name) accesses her suit's interface, initiating a series of complex hacking maneuvers. \(randomPhrase) she replies.")
     
     print("The room's lights flicker as \(codeSlinger.name) engages in a digital battle with \(aetheris.name)'s defenses. \"Who dares challenge me?\" \(drEvil.name) shouts. \(aetheris.name) reacts, its code lashing out defensively. \(codeSlinger.name) grits her teeth, focusing on breaking through \(aetheris.name)'s defenses" )
     
-    print(" \"You won't stop me, \(codeSlinger.name)!, \(drEvil.name), crush her!\" \(aetheris.name) launches a powerful counterattack, its code surging with dark energy. \(codeSlinger.name) gritting her teeth \"No! this cant be happening! \(aetheris.name) weakens, its defenses crumbling under \(codeSlinger.name)'s relentless assault.")
-}
-
-
-
-func GoodKicksButt() {
+    // enum for attacks
     
-    // conditional statement
-    
-    if landsFinalBlow {
+    enum Attacks {
         
-        print("\(codeSlinger.name) lands the final blow, her eyes determined. \"It's over \(aetheris.name)\" \(aetheris.name)'s code shatters, dissipating into the digital ether. With \(aetheris.name) defeated, \(codeSlinger.name) emerged victorious, her city saved from the clutches of darkness.")
-        
-    } else {
-        
-        print("\(codeSlinger.name) misses the final blow. \"It's over for you\" \(aetheris.name) says with a big feeling of accomplishment. \(aetheris.name) hits \(codeSlinger.name) with the final and most fatal blow. With \(codeSlinger.name) defeated, \(aetheris.name) emerged victorious, her city saved from the clutches of darkness")
+        case counterattack
+        case frontattack
+        case backwardsattack
     }
-}
-
-
-func MorningAfter() {
     
-    print("The first light of dawn breaks, painting the sky with hues of orange and pink. \(codeSlinger.name) stands on a rooftop, watching over \(byteville.name). As she gazes over the town she softly whispers \(randomPhrase2) The city stirs back to life, unaware of the battle fought and won by thier silent guardian.")
+    // variable for enum
+    
+    let Attack1 = Attacks.counterattack
+    
+    switch (Attack1) {
+        
+    case .counterattack:
+        
+        print("\"You won't stop me, \(codeSlinger.name)!, \(drEvil.name), crush her!\" \(aetheris.name) launches a powerful counterattack, its code surging with dark energy. \(codeSlinger.name) gritting her teeth \"No! this cant be happening! \(aetheris.name) weakens, its defenses crumbling under \(codeSlinger.name)'s relentless assault.")
+        
+    case .frontattack:
+        print("\"You won't stop me, \(codeSlinger.name)!, \(drEvil.name), crush her!\" \(aetheris.name) launches a powerful frontattack, its code surging with dark energy. \(codeSlinger.name) gritting her teeth \"No! this cant be happening! \(aetheris.name) weakens, its defenses crumbling under \(codeSlinger.name)'s relentless assault.")
+    case .backwardsattack:
+        
+        print("\"You won't stop me, \(codeSlinger.name)!, \(drEvil.name), crush her!\" \(aetheris.name) launches a powerful backattack, its code surging with dark energy. \(codeSlinger.name) gritting her teeth \"No! this cant be happening! \(aetheris.name) weakens, its defenses crumbling under \(codeSlinger.name)'s relentless assault.")
+    }
     
 }
+    
+    
+    
+    func GoodKicksButt() {
+        
+        // conditional statement
+        
+        if landsFinalBlow {
+            
+            print("\(codeSlinger.name) lands the final blow, her eyes determined. \"It's over \(aetheris.name)\" \(aetheris.name)'s code shatters, dissipating into the digital ether. With \(aetheris.name) defeated, \(codeSlinger.name) emerged victorious, her city saved from the clutches of darkness.")
+            
+        } else {
+            
+            print("\(codeSlinger.name) misses the final blow. \"It's over for you\" \(aetheris.name) says with a big feeling of accomplishment. \(aetheris.name) hits \(codeSlinger.name) with the final and most fatal blow. With \(codeSlinger.name) defeated, \(aetheris.name) emerged victorious, her city saved from the clutches of darkness")
+        }
+    }
+    
+    
+    func MorningAfter() {
+        
+        print("The first light of dawn breaks, painting the sky with hues of orange and pink. \(codeSlinger.name) stands on a rooftop, watching over \(byteville.name). As she gazes over the town she softly whispers \(randomPhrase2) The city stirs back to life, unaware of the battle fought and won by thier silent guardian.")
+        
+    }
+
