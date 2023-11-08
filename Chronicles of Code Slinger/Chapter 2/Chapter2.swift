@@ -6,10 +6,10 @@
 import Foundation
 
 let chapterTitle: String = "Chapter 2: Secrets Unraveled"
-let mainCharacter = "Lily"
+//let mainCharacter = "Lily"
 let oldAI = "Seraph"
 let newAI = "Aetheris"
-let Town = "Byteville"
+//let Town = "Byteville"
 let Hero = "Code Slinger"
 
     
