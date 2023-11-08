@@ -15,11 +15,11 @@ let Corp = "Innovatech Corporation"
 let mainCharacter = "Lily"
 let evilVillian = "Dr. Evil"
 
-//variables used for conditional statements
+//boolean variables used for conditional statements
 var isEverythingAboutToChange: Bool = true
 var roomResonatesWithHum: Bool = true
 
-///Struct using character profile
+///Struct representing character profile
 
 struct CharacterProfile1 {
     var name: String
@@ -28,20 +28,20 @@ struct CharacterProfile1 {
     var role: String
     var nickname: String? //modified struct to add optional string property for character nickname
 }
-    
+    //represents the differnt characters used in the story
     let lily1 = CharacterProfile1(name: "Lily", age: 20, description: "A woman in her early twenties with glasses and an introverted demeanor.", role: "Software Developer", nickname: nil)
     let drEvil = CharacterProfile1(name: "Dr. Evil", age: 50, description: "A man in his 50s both imposing and cunning.", role: "CEO of Innovatech Corporation.", nickname: "Evil Genius")
     let mrSmith = CharacterProfile1(name: "Mr. Smith", age: 40, description: "Loyal bu uneasy assistant of Dr. Evil.", role: "Evil Assitant")
     let seraph1 = CharacterProfile1(name: "Seraph", age: -1, description: "Old AI used by Innovatech Corporation that is going to be replaced.", role: "AI Entity")
 
 
-
-//func printSlow(phrase: String, speed: TimeInterval = 0.1){
-//    for charachter in phrase{
-//        print(charachter, terminator: "")
-//        Thread.sleep(forTimeInterval: 0.1)
-//    }
-//}
+//function used to slow down phrase
+func printSlow(phrase: String, speed: TimeInterval = 0.005){
+    for charachter in phrase{
+        print(charachter, terminator: "")
+        Thread.sleep(forTimeInterval: 0.1)
+    }
+}
 
 
 
@@ -50,19 +50,13 @@ struct CharacterProfile1 {
 
 func chapterOne() {
     
-    func printSlow(phrase: String, speed: TimeInterval = 2){
-        for charachter in phrase{
-            print(charachter, terminator: "")
-            Thread.sleep(forTimeInterval: 0.1)
-        }
-    }
 
     print(chapterTitle)
     
     ///conditionals
     
     if isEverythingAboutToChange {
-        printSlow(phrase: "The day started like any other day, but today in the town of \(town) everything was about to change...")
+        print("The day started like any other day, but today in the town of \(town) everything was about to change...")
     } else {
         print("The day started like any other day, but today in the town of \(town) nothing was about to change at all and it's going to be another beautiful day!")
     }
@@ -72,7 +66,7 @@ func chapterOne() {
         
     }
     
-    ///enums
+    ///enum representing differnt status of chracters
     
     enum CharacterStatus {
         case Engrossed
@@ -81,8 +75,10 @@ func chapterOne() {
         case Nervous
         case confident
     }
-    
+    //assigns a mood to my character status
     let status = CharacterStatus.Engrossed
+    
+    //switch statement allows me to assign a different mood
     
     switch (status) {
         
@@ -116,7 +112,7 @@ func chapterOne() {
         let randomdescriptives = descriptives.randomElement()!
         
         
-        printSlow(phrase: "Our story then cuts to \(evilVillian), a man who is 50 that is both imposing and cunning.  \(evilVillian) is the CEO of \(Corp) which develops AI tech.  As \(evilVillian) has his eyes fixed on \(town) he smirks and \(randomdescriptives) states, “The world will soon bow down before my creation!  \(NewAI) will revolutionize everything and help me begin my plan for world domination!”  His voice was laced with evil intentions as it resonated throughout the room. Beside him was Mr. Smith, his loyal but uneasy assistant.  Mr. Smith voiced his concerns and nervously asked “But sir, what about \(OldAI)?  It’s still currently operational.” \(evilVillian) chuckled darkly as he said '\(OldAI) is outdated and no longer has a purpose for my bigger plans Mr. Smith.  We need something more…sinister.'")
+        print("Our story then cuts to \(evilVillian), a man who is 50 that is both imposing and cunning.  \(evilVillian) is the CEO of \(Corp) which develops AI tech.  As \(evilVillian) has his eyes fixed on \(town) he smirks and \(randomdescriptives) states, “The world will soon bow down before my creation!  \(NewAI) will revolutionize everything and help me begin my plan for world domination!”  His voice was laced with evil intentions as it resonated throughout the room. Beside him was Mr. Smith, his loyal but uneasy assistant.  Mr. Smith voiced his concerns and nervously asked “But sir, what about \(OldAI)?  It’s still currently operational.” \(evilVillian) chuckled darkly as he said '\(OldAI) is outdated and no longer has a purpose for my bigger plans Mr. Smith.  We need something more…sinister.'")
     }
     
     func thirdbody() {
@@ -127,7 +123,7 @@ func chapterOne() {
         
         for _ in 1...3 {
             
-            print(" ZKL3*&;lAO99A#@$ '\(mainCharacter)... beware of the darkness that approaches. You are the key.'")
+            printSlow(phrase:" ZKL3*&;lAO99A#@$ '\(mainCharacter)... beware of the darkness that approaches. You are the key.'")
             
         }
         
