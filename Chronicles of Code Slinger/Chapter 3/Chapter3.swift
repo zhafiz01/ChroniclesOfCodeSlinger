@@ -159,6 +159,7 @@ func chapterThree() {
         print("Her cellphone rings and she picks up the phone and says")
         chant()
         print("They told her come to the roof and its about to go down")
+    print(" As she driving to the roof she this song comes on the radio and its called CodeSlinger and she liked the name and decided that will be her Superhero name moving forward ")
         //    if let randomEnum = enumarr.randomElement() {
         //        print(randomEnum)
         //    }
